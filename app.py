@@ -57,8 +57,7 @@ st.set_page_config(
 st.title("♻️ Industrial Waste Analytics Dashboard")
 
 # READ ALL CSV FILES
-files = glob.glob("
-archive (6).zip.csv")
+files = glob.glob("archive (6).zip.csv")
 
 # CHECK FILES
 if len(files) == 0:
