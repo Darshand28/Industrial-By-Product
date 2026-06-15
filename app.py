@@ -13,7 +13,7 @@ st.set_page_config(
 st.title("♻️ Industrial Waste Analytics Dashboard")
 
 # READ YOUR CSV FILE
-df = pd.read_csv("import streamlit as st
+df = pd.read_csv("archive (6).zip.csv")
 import pandas as pd
 import plotly.express as px
 import glob
@@ -29,7 +29,7 @@ st.set_page_config(
 st.title("♻️ Industrial Waste Analytics Dashboard")
 
 # READ ALL CSV FILES
-files = glob.glob("data/*.csv")
+files = glob.glob("archive (6).zip.csv")
 
 # CHECK FILES
 if len(files) == 0:
@@ -41,7 +41,7 @@ df_list = []
 
 for file in files:
 
-    temp_df = pd.read_csv(import streamlit as st
+    temp_df = pd.read_csv("archive (6).zip.csv")
 import pandas as pd
 import plotly.express as px
 import glob
