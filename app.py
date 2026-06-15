@@ -284,4 +284,3 @@ st.markdown("""
 
 ### ▶ Run Project
 ```bash
-streamlit run app.py
