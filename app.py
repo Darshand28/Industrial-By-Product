@@ -69,8 +69,7 @@ df_list = []
 
 for file in files:
 
-    temp_df = pd.read_csv(
-archive (6).zip.csv")
+    temp_df = pd.read_csv("archive (6).zip.csv")
 
     df_list.append(temp_df)
 
