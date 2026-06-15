@@ -57,7 +57,8 @@ st.set_page_config(
 st.title("♻️ Industrial Waste Analytics Dashboard")
 
 # READ ALL CSV FILES
-files = glob.glob("data/*.csv")
+files = glob.glob("
+archive (6).zip.csv")
 
 # CHECK FILES
 if len(files) == 0:
@@ -69,7 +70,8 @@ df_list = []
 
 for file in files:
 
-    temp_df = pd.read_csv(file)
+    temp_df = pd.read_csv(
+archive (6).zip.csv")
 
     df_list.append(temp_df)
 
