@@ -207,7 +207,7 @@ fig3 = px.histogram(
 
 st.plotly_chart(fig3, use_container_width=True)
 
-st.success("Dashboard Loaded Successfully ✅").csv")
+st.success("Dashboard Loaded Successfully ✅")
 
 # SHOW DATA
 st.subheader("Dataset Preview")
