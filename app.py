@@ -138,7 +138,7 @@ fig3 = px.histogram(
 
 st.plotly_chart(fig3, use_container_width=True)
 
-st.success("Dashboard Loaded Successfully ✅"))
+st.success("Dashboard Loaded Successfully ✅")
 
     df_list.append(temp_df)
 
