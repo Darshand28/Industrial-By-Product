@@ -140,7 +140,7 @@ st.plotly_chart(fig3, use_container_width=True)
 
 st.success("Dashboard Loaded Successfully ✅")
 
-    df_list.append(temp_df)
+    
 
 # COMBINE DATA
 df = pd.concat(df_list, ignore_index=True)
