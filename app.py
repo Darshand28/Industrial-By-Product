@@ -274,13 +274,4 @@ st.download_button(
 
 st.markdown("---")
 
-st.markdown("""
-### 🚀 Technologies Used
-- Python
-- Streamlit
-- Plotly
-- Pandas
-- NumPy
 
-### ▶ Run Project
-```bash
